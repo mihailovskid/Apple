@@ -5,7 +5,17 @@ body {
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
-      
+}
+h1, h2, h3, h4, h5 ,h6 {
+    margin: 0;
+}
+h2 {
+    font-weight: 900;font-size: x-large;
+    margin: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
 }
 .primary {
     background-color: rgba(188,185,170,255);
@@ -33,14 +43,23 @@ body {
 .f-right {
     float: right; 
 }
+.left-side {
+    width: 50%;
+}
+.right-side {
+    width: 50%;
+}
 .container {
     display: inline-block;
 }
 .header-white {
     color: white;
-    margin:0px auto 20px;
-    padding-top: 15px;
+    margin:0px auto 40px;
+    padding-top: 20px;
     text-align: center;
+}
+.content {
+    width: 100%;
 }
 .logo-img {
     width: 30px;
@@ -58,10 +77,6 @@ body {
     float: right;
     list-style-type: none;
 }
-a {
-    color: white;
-    text-decoration: none;
-}
 .logo a:hover {
    color: silver;
    transition: 0.3s;
@@ -74,12 +89,6 @@ a {
     width: 400px;
     transform: translate(-50%);
 }
-.left-side {
-    width: 50%;
-}
-.right-side {
-    width: 50%;
-}
 .mac-book {
     background-color: rgba(219,219,219,255);
 }
@@ -87,13 +96,6 @@ a {
     padding-bottom: 20px;
     width: 50%;
     text-align: center;
-}
-h2 {
-    font-weight: 900;font-size: x-large;
-    margin: 0;
-}
-.content {
-    width: 100%;
 }
 .small-img {
     width: 100%;
@@ -153,7 +155,7 @@ text-align: center;
 .copyright {
     background-color: rgba(81,67,84,255);
     color: white;
-    padding: 1px;
+    padding: 15px;
     text-align: center;
     float: left;
     width: 100%;
@@ -172,7 +174,7 @@ text-align: center;
     color:  #638caa;
     background-color: silver;
     border: solid   silver 2px;
-    padding: 20px 5px;
+    padding: 15px 5px;
     border-radius: 7px;
     transition: 0.5s;
 }
